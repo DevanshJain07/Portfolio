@@ -131,7 +131,7 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
               <h3 className="mb-0">TP BHATIA COLLEGE OF SCIENCE</h3>
-              <div className="subheading mb-3">CLASS-10</div>
+              <div className="subheading mb-3">CLASS-12</div>
               <p>GPA:4.00</p>
             </div>
             <div className="resume-date text-md-right">
