@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
+import { Link } from 'gatsby';
 const IndexPage = () => (
   <Layout>
     <Sidebar />
@@ -214,6 +215,80 @@ const IndexPage = () => (
             </li>
           </ul>
         </div>
+      </section>
+
+      <hr className="m-0" />
+
+      <section
+        className="resume-section p-3 p-lg-5 d-flex justify-content-center"
+        id="projects">
+
+        <div className="w-100">
+          <h2 className="mb-5">PROJECTS</h2>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">DNA BASED DATA SECURITY IN THE CLOUD
+COMPUTING ENVIRONMENT — 6TH
+SEMESTER</h3>
+              <div className="subheading mb-3"><Link>https://github.com/DevanshJain07/DNA-security-using-Cloud-Computing</Link></div>
+              <p>
+              Built a window based application using java swing as a
+frontend , socket connection , and using a dna based
+method for encryption and decryption of the file or
+information and storing it in cloud.
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">January 2021 - May 2021</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">CASA-CROWD — Context-Aware Scale
+Aggregation CNN-Based Crowd Counting
+Technique-5th semester</h3>
+              <div className="subheading mb-3"><Link>https://github.com/DevanshJain07/CASA-Crowd</Link></div>
+              <p>
+              Machine Learning project that I worked on, using CNN
+model built over VGG-16 via transfer learning.              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">august 2020 - december 2020</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">NEIGHBORHOOD SUGGESTIONS</h3>
+              <div className="subheading mb-3"><Link>https://github.com/DevanshJain07/foursquare_api</Link></div>
+              <p>
+              It was a Mini Data Science project done by me which
+suggests all the places that you require in the
+neighborhoods of the place/city you are going to stay
+using Foursquare API. BeautifulSoup is used for Web
+Scraping.              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">May 2020 - June 2020</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">E-COMMERCE WEBSITE</h3>
+              <div className="subheading mb-3"><Link>https://github.com/DevanshJain07/Triggered-Shop-Online</Link></div>
+              <p>
+              It is a website which sells clothings, developed Using
+MERN. Stride Payment is integrated.       </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">March 2020 - Present</span>
+            </div>
+          </div>
+
+          </div>
       </section>
 
       <hr className="m-0" />
